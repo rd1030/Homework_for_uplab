@@ -1,3 +1,8 @@
+a{
+  color:#000;
+  text-decoration: none;
+}
+
 .header{
   background-image: url(img/bg-img.jpg);
   background-color: rgba(0, 0, 0, 0.75);
@@ -86,6 +91,7 @@
   justify-content: flex-end;
   width:100%;
   margin-right:2em;
+
 }
 .data-of-article{
   margin-left:;
@@ -93,6 +99,7 @@
 }
 .characteristic{
   margin-right:2em;
+    color:#fff;
 }
 /*header*/
 .post{
@@ -115,8 +122,10 @@
   width: 79px;
   height: 79px;
   background-color: #2ffbc8;
-  text-align: center;
+  justify-content: center;
   margin-bottom:1px;
+  display:flex;
+  align-items: center;
 
 }
 div.soc-icon img{
@@ -205,21 +214,38 @@ div.soc-icon img{
 .callnumber{
   font-family: RobotoNorm;
   Margin-left:0px;
-  text-align:left;
+  display:flex
+}
+.Name,
+.Number,
+.mail{
+  display:flex;
+  justify-content: flex-start;
+  align-items:flex-end;
+  margin-left:-14px;
+}
+.des-name{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .icon-call{
   position:relative;
   left:-30px;
+  height:auto;
+  top:4px;
 }
 .icon-mail{
   position:relative;
   left:-30px;
+  height:auto;
+  top:4px;
 }
 .Number{
-  margin-top:-20px;
+  margin-top:0px;
 }
 .mail{
-  margin-top:-20px;
+  margin-top:0px;
    border-bottom: 2px solid #2ffbc8;
    width:150px
 }

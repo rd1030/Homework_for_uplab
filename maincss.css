@@ -21,6 +21,9 @@ h6 {
 a{
   text-decoration:none;
 }
+a:hover{
+  color: #808080;
+}
 .header{
   width: 100%;
   height: 700px;
